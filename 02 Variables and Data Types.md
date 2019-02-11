@@ -54,10 +54,14 @@
 <p>Primitive types are the basic building blocks of Java. They must be declared with their type name in lowercase.</p>
 <p><strong>Integers (whole numbers and negative numbers)</strong></p>
 <ol>
-<li>int (32 bit value, integer) <em>This is the default for integer values</em></li>
-<li>long (64 bit value, extra long) <em>put an L at the end</em></li>
-<li>short (16 bit value)</li>
-<li>byte (8 bit value)</li>
+<li>int (32 bit value, integer) <em>This is the default for integer values</em><br>
+Values between -2,147,483,648 and 2,147,483,647</li>
+<li>long (64 bit value, extra long) <em>put an L at the end</em><br>
+Values between -9,223,372,036,854,775,808 and 9,223,372,036,854,775,807</li>
+<li>short (16 bit value)<br>
+Values between -32,768 and 32,767</li>
+<li>byte (8 bit value)<br>
+Values between -128 and 127</li>
 </ol>
 <p><strong>Decimal or “floating” point numbers</strong></p>
 <ol start="5">
