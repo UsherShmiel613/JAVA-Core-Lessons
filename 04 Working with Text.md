@@ -25,11 +25,11 @@
            
         String greeting = "Hello"; 
         String blank = " ";
-        String name = "Adam";
+        String userName = "Adam";
            
-        String greeting = text + blank + name;
+        String welcomeUser = greeting + blank + userName;
            
-        System.out.println(greeting);
+        System.out.println(welcomeUser);
         // This does the same thing   
         System.out.println("Hello" + " " + "Adam");
         
