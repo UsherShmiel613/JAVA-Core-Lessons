@@ -30,7 +30,11 @@
         String welcomeUser = greeting + blank + userName;
            
         System.out.println(welcomeUser);
-        // This does the same thing   
+        /* This does the same thing, but does it manually. 
+        This makes it harder to change later. 
+        Using the variables allows the code to change, for example to use the same function for many users with different names. 
+        We'll learn how to do that soon.
+        */   
         System.out.println("Hello" + " " + "Adam");
         
         int myInt = 613;   
