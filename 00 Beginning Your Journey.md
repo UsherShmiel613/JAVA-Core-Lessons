@@ -35,6 +35,8 @@ Mike Boyd is a YouTube creator who learns new skills fast. He measures exactly h
 <p>Here is a nice article about the most important skill for mastering programming—perseverance!<br>
 <a href="https://learnprogramming.academy/programming/struggling-with-programming-read-this-now/">https://learnprogramming.academy/programming/struggling-with-programming-read-this-now/</a></p>
 <p>Here are some videos that I’d recommend for getting into the right mindset for learning something new:<br>
+<em>Coding A Game</em><br>
+<a href="https://youtu.be/s12npdDmGUc">https://youtu.be/s12npdDmGUc</a><br>
 <em>Dice Stacking</em><br>
 <a href="https://www.youtube.com/watch?0pv=Xqpf1FxU2q4">https://www.youtube.com/watch?0pv=Xqpf1FxU2q4</a><br>
 <em>The Ten Hour Rule</em><br>
