@@ -131,6 +131,7 @@ public class Conditionals {
 <li>What happens if the condition for more than one is true?</li>
 <li>What happens if you enter a negative speed?</li>
 <li>Add an <strong>else { }</strong> statement at the end to tell the user “That is not a valid speed”, if they enter a negative number.</li>
+<li>Try defining the boolean tests as variables, and use these variables instead of putting the condition itself in the if statements.</li>
 </ol>
 <blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
