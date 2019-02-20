@@ -3,7 +3,7 @@
 
 ---
 
-<h2 id="getting-user-input">Getting User Input</h2>
+<h1 id="getting-user-input">Getting User Input</h1>
 <p>Java provides many ways for getting user input. The Scanner class is the most common, and one of the easiest.</p>
 <h4 id="imports">Imports</h4>
 <p>In order to use the <strong>Scanner</strong> we need to import this class—adding it to our project. Think of this like plugging a keyboard into your computer. The Scanner class is a ready to use package. We just import it and use it.</p>
