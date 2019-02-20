@@ -3,7 +3,7 @@
 
 ---
 
-<h2 id="conditional-statements">Conditional Statements</h2>
+<h1 id="conditional-statements">Conditional Statements</h1>
 <p>Conditional statements let your program make <strong>decisions</strong>, by only performing an action if a certain condition is met.</p>
 <p>The <strong>If statement</strong> is the simplest and most common way to make a decision. The <strong>if statement</strong> uses a condition which can be <strong>true</strong> or <strong>false</strong>, the code inside this block will only run if the condition is <strong>true</strong>.</p>
 <p>This is how this looks:</p>
