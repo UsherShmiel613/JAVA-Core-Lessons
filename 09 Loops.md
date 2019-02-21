@@ -63,6 +63,12 @@ while (x &gt; 0) {
 }
 // This will print "Repeating" forever.
 </code></pre>
+<h3 id="things-to-try">Things To Try</h3>
+<ol>
+<li>Change the PIN to a password (String).</li>
+<li>Use the .equals() method <code>while (!password.equals("password123"))</code></li>
+<li>Move the boolean playingGame inside of the while loop. What happens? Why?</li>
+</ol>
 <blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
 </blockquote>
