@@ -3,7 +3,7 @@
 
 ---
 
-<h1 id="loops">Loops</h1>
+<h1 id="loops">9 Loops</h1>
 <p>A <strong>loop</strong> statement tells your Java Machine to repeat a code block. As you will see, these can be very useful!</p>
 <h2 id="while-loop">While Loop</h2>
 <p>The simplest loop is the <strong>while loop</strong>.</p>
