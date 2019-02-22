@@ -3,7 +3,7 @@
 
 ---
 
-<h1 id="more-operators">More Operators</h1>
+<h1 id="more-operators">8 More Operators</h1>
 <p>Before moving on to loops, there are a few more <strong>operators</strong> to learn.</p>
 <h3 id="increment-and-decrement">Increment and Decrement</h3>
 <p>Often, we want to increase the value of some variable. Until now we did this with arithmetic operators.</p>
