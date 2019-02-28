@@ -56,7 +56,11 @@ System.out.println(users[1]); // prints "Sarah"
 <li>Try accessing an item with an index bigger than the array. So, if the biggest index in your array is 9, try accessing index 12. (You should get an IndexOutOfBoundsException. This is one of the most common errors / exceptions, so watch out!)</li>
 <li>Create an array, give it a size, but don’t add any items. Now try to access one of the items. What happens?</li>
 <li>Create an array, but don’t give it any size. Now try to access one of the items. What happens?</li>
+<li>Try to print the entire array by its name, like <code>System.out.println(users);</code></li>
 </ol>
+<h4 id="printing-problems">Printing Problems</h4>
+<p>If you try to print an array directly, you get something weird like: <code>[Ljava.lang.String;@34ce8af7</code></p>
+<p>This is because the array itself is not the items in the array, but a reference (or remote control) that can access those items. Therefore, printing the array itself gives the type and hash number that represents the reference. So what if I want to print everything in the array? For that you need a <strong>for loop</strong>!</p>
 <blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
 </blockquote>
