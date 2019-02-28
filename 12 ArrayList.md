@@ -26,6 +26,16 @@ public class ArrayLists {
 }
 </code></pre>
 <p>Use the <strong>ArrayList</strong> any time you need to add items to your list, and don’t know how many you’ll need. The <strong>ArrayList</strong> automatically grows and shrinks to fit!</p>
+<h3 id="arraylist-methods">ArrayList Methods</h3>
+<p>Here are some common ArrayList methods.</p>
+<pre><code>myList.add(); // adds an item to list
+myList.get(i); // get an item from list at index i
+myList.set(i); // changes the item at index i
+myList.remove(i); // removes the item at index i
+myList.contains(); // checks if item is in list (returns true or false)
+myList.size(); // returns size of list
+myList.clear(); // deletes all items in list
+</code></pre>
 <blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
 </blockquote>
