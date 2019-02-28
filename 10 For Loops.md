@@ -5,7 +5,7 @@
 
 <h1 id="for-loops">For Loops</h1>
 <p><strong>For loops</strong> are a little different than a <strong>while loop</strong>, but they are extremely useful. The main difference is that in a <strong>for loop</strong> you know how many times you want the loop to run. On the other hand, a while loop is best when you don’t know how many times it will run.</p>
-<p>As we will soon see, <strong>for loops</strong> are most often used to do something to everything in a list (or array). For example, to print a list of users. (We’ll learn the basics of <strong>for loops</strong> now, and practice them later, once we learn about arrays and lists.)</p>
+<p>As we see, <strong>for loops</strong> are most often used to do something to everything in a list (or array). For example, to print a list of users.</p>
 <p>Here is what a <strong>for loop</strong> looks like.</p>
 <pre><code>// This is a list (called an array) of users. (We'll learn all about arrays soon.)
 String[] users = {"Adam", "Sarah", "Jonah", "Clara"};  
