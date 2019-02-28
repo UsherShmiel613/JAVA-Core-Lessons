@@ -46,7 +46,7 @@ System.out.println(sum);
 </ol>
 <h3 id="nested-for-loops">Nested For Loops</h3>
 <p>Sometimes it is useful to put one for loop inside of another. This is called a <strong>nested loop</strong> (like nesting Russian dolls).</p>
-<p>The following example prints an 8 x 8 grid, like a chess board. In a more complex application, you could something like this to control a graphical game board, or to create and change a table of information like a spreadsheet.</p>
+<p>The following example prints an 8 x 8 grid, like a chess board. In a more complex application, you could use something like this to control a graphical game board, or to create and change a table of information like a spreadsheet.</p>
 <pre><code>// Pritns an 8 x 8 labled grid, like a chess board  
 int row,column;  
 for(row = 1; row &lt;= 8; row++){  
