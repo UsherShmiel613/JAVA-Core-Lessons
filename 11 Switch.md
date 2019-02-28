@@ -5,53 +5,53 @@
 
 <h1 id="switch-statements">Switch Statements</h1>
 <p>There is one more way to control your program’s decision making, the <strong>switch statement</strong>. It is not as common as the others, but it is very useful when you have a lot of options, because it avoids needing lot of <strong>if else</strong> statements.</p>
-<p><strong>Switch statements</strong> are faster if there are a lot of choices. They are usually used when the input is some fixed number or word (String). <strong>If else</strong> statements are usually used to check true or false (boolean) values.</p>
-<p>Here is an example of a switch statement that prints the day of the week.</p>
+<p><strong>Switch statements</strong> are also faster if there are a lot of choices. They are usually used when the input is some fixed number or word (String). <strong>If else</strong> statements are usually used to check conditions that vary.</p>
+<p>Here is an example of a switch statement that prints the day of the week, corresponding with its number.</p>
 <pre><code>int day = 4;
     switch (day) {
         case 1:
-            System.out.println("Monday");
+            System.out.println("Sunday");
             break;
         case 2:
-            System.out.println("Tuesday");
+            System.out.println("Monday");
             break;
         case 3:
-            System.out.println("Wednesday");
+            System.out.println("Tuesday");
             break;
         case 4:
-            System.out.println("Thursday");
+            System.out.println("Wednesday");
             break;
         case 5:
-            System.out.println("Friday");
+            System.out.println("Thursday");
             break;
         case 6:
-            System.out.println("Saturday");
+            System.out.println("Friday");
             break;
         case 7:
-            System.out.println("Sunday");
+            System.out.println("Saturday");
             break;
         default:  
 		    System.out.println("Invalid day");  
 			break;
     }
-	// Outputs "Thursday" (day 4)
+	// Outputs "Wednesday" (day 4)
 </code></pre>
 <p>This is the same as writing the following with <strong>if else</strong> statements:</p>
 <pre><code>	int day = 4;
 	if (day == 1){
-        System.out.println("Monday");
-    } else if (day == 2) {
-        System.out.println("Tuesday");
-    } else if (day == 3) {
-        System.out.println("Wednesday");
-    } else if (day == 4) {
-        System.out.println("Thursday");
-    } else if (day == 5) {
-        System.out.println("Friday");
-    } else if (day == 6) {
-        System.out.println("Saturday");
-    } else if (day == 7) {
         System.out.println("Sunday");
+    } else if (day == 2) {
+        System.out.println("Monday");
+    } else if (day == 3) {
+        System.out.println("Tuesday");
+    } else if (day == 4) {
+        System.out.println("Wednesday");
+    } else if (day == 5) {
+        System.out.println("Thursday");
+    } else if (day == 6) {
+        System.out.println("Friday");
+    } else if (day == 7) {
+        System.out.println("Saturday");
     } else {
 		System.out.println("Invalid day");
 	} 
