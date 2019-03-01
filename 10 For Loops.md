@@ -5,7 +5,7 @@
 
 <h1 id="for-loops">For Loops</h1>
 <p><strong>For loops</strong> are a little different than a <strong>while loop</strong>, but they are extremely useful. The main difference is that in a <strong>for loop</strong> you know how many times you want the loop to run. On the other hand, a while loop is best when you don’t know how many times it will run.</p>
-<p>As we see, <strong>for loops</strong> are most often used to do something to everything in a list (or array). For example, to print a list of users.</p>
+<p><strong>For loops</strong> are most often used to do something to every item in a list (or array). For example, to print a list of users.</p>
 <p>Here is what a <strong>for loop</strong> looks like.</p>
 <pre><code>// This is a list (called an array) of users. (We'll learn all about arrays soon.)
 String[] users = {"Adam", "Sarah", "Jonah", "Clara"};  
@@ -49,7 +49,8 @@ System.out.println(sum);
 <p>The following example prints an 8 x 8 grid, like a chess board. In a more complex application, you could use something like this to control a graphical game board, or to create and change a table of information like a spreadsheet.</p>
 <pre><code>// Pritns an 8 x 8 labled grid, like a chess board  
 int row,column;  
-for(row = 1; row &lt;= 8; row++){  
+for(row = 1; row &lt;= 8; row++){
+    // for each of our 8 rows, do the following 8 times, once for each column  
     for(column = 1; column &lt;= 8; column++){
         // Uses print, intead of println to keep each row on the same line  
         System.out.print("[col " + column + " row " + row + "] ");  
