@@ -63,7 +63,7 @@ System.out.println(users[1]); // prints "Sarah"
 <h4 id="printing-problems">Printing Problems</h4>
 <p>If you try to print an array directly, you get something weird like: <code>[Ljava.lang.String;@34ce8af7</code></p>
 <p>This is because the array itself is not the items in the array, but a reference (or remote control) that can access those items. Therefore, printing the array itself gives the type and hash number that represents the reference. So what if I want to print everything in the array? For that you need a <strong>for loop</strong>!</p>
-<p>(We’ll get back to the <strong>ArrayList</strong> after <strong>for loops</strong>.)</p>
+<p>(We’ll get to the <strong>ArrayList</strong> after <strong>for loops</strong>.)</p>
 <blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
 </blockquote>
