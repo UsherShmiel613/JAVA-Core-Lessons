@@ -10,9 +10,10 @@
 <p>Similar to an <strong>if</strong> statement, a <strong>while loop</strong> uses a condition which can be <strong>true</strong> or <strong>false</strong>. The code inside this block will <strong>repeat</strong> as long as the condition is <strong>true</strong>.</p>
 <h3 id="how-to-make-a-while-loop">How To Make A While Loop</h3>
 <p>Usually, we will repeat something a certain number of times, or until there is a reason to stop.</p>
-<p>Here is an example of a simple loop that counts down:</p>
+<p>Here is an example of a simple loop that counts down from 10:</p>
 <pre><code>int x = 10;
 while (x &gt; 0) {
+    System.out.println(x);
 	x--; // same as x = x - 1;
 }
 </code></pre>
@@ -35,16 +36,32 @@ while (x &gt; 0) {
 <p>Another common example is to repeat a program until a user quits:</p>
 <pre><code>	Scanner input = new Scanner(System.in);
     boolean playingGame = true;
+    int guess;  
+	Random rand = new Random();
 
     while (playingGame) {
         System.out.println("Let's play...");
-        // put game code here...  
-		// after a round, ask if the user wants to continue playing, or stop
+        System.out.println("I'm going to flip a coin. Guess if its Heads (1) or Tails (2).");
+
+        int flip = rand.nextInt(2) + 1; // picks 1 or 2 at random
+
+        guess = input.nextInt();
+        if (guess != 1 &amp;&amp; guess != 2) {
+            System.out.println("That is not valid input. \n");
+            continue;
+        }
+        else if(guess == flip) {
+            System.out.println("Correct!");
+        } else {
+            System.out.println("Sorry, incorrect.");
+        }  
+		// after each round, ask if the user wants to continue playing, or stop
         System.out.println("Do you want to continue (y/n)");
         String choice = input.next();
 
         if (choice.equals("y")){
-            continue; // continue jumps back to the begining of the loop, skipping the options below
+            // continue jumps back to the begining of the loop, skipping the options below
+            continue; 
         } else if (choice.equals("n")){
             playingGame = false;
             System.out.println("Goodbye");
@@ -52,7 +69,8 @@ while (x &gt; 0) {
             System.out.println("That is not a valid choice");
         }
     }
-    // When the loop is false, the program continues with the next line of code, after the loop.
+    // When the loop is false, the program 
+    // continues with the next line of code, after the loop.
     System.out.println("Loop is over..."); 
 </code></pre>
 <h3 id="warning-infinite-loops">Warning! Infinite Loops</h3>
