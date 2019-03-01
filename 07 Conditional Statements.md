@@ -34,7 +34,7 @@
 </ol>
 <h2 id="comparison-relational-operators">Comparison (Relational) Operators</h2>
 <p>Our current code will never change. The first statement is true, so it will always run. The second is false, so it will always be skipped.</p>
-<p>What we really want is <strong>reactive</strong> code that will change based on what is going on in the program, or base on user input. To accomplish this we use <strong>comparison operators</strong> to evaluate if a something is true or false.</p>
+<p>What we really want is <strong>reactive</strong> code that will change based on what is going on in the program, or base on user input. To accomplish this we use <strong>comparison operators</strong> to evaluate if something is true or false.</p>
 <p>We can use 6 comparison operators:</p>
 <ol>
 <li><strong>&lt;</strong> less than</li>
