@@ -69,9 +69,9 @@
 
         int anotherAge = 30; 
 	    if (age &lt; 16) {  
-	    System.out.println("Too Young");  
+	    System.out.println("Too Young to drive");  
 	    } else {  
-	    System.out.println("Welcome!");  
+	    System.out.println("Welcome to drivers ed!");  
 	    }  
 
     }
