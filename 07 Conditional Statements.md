@@ -82,7 +82,7 @@
 <li>Try changing the int age to less than 18.</li>
 <li>Use a Scanner to allow the user to input their age.</li>
 </ol>
-<p>Now let’s try a more complex examples:</p>
+<p>Now let’s try a more complex examples, where there are more than two options:</p>
 <pre><code>import java.util.Scanner;  
   
 public class Conditionals {  
@@ -131,6 +131,7 @@ public class Conditionals {
 <li>What happens if the condition for more than one is true?</li>
 <li>What happens if you enter a negative speed?</li>
 <li>Add an <strong>else { }</strong> statement at the end to tell the user “That is not a valid speed”, if they enter a negative number.</li>
+<li>Did you notice that some values are not included in our code (between 70 and 50). Add code to cover those values.</li>
 <li>Try defining the boolean tests as variables, and use these variables instead of putting the condition itself in the if statements.</li>
 </ol>
 <blockquote>
