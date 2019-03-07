@@ -28,6 +28,15 @@
 <li>Print the subtotal, tax rate, tax, and total</li>
 <li>Increment the order number after sale.</li>
 </ol>
+<h4 id="building-blocks">Building Blocks</h4>
+<ol>
+<li>Make a boolean to compare height and the minimum size to ride</li>
+<li>Make a boolean to check that a String is longer than 2 characters</li>
+<li>Make an if else statement to check if a user entered “y”, “n”, or an invalid option.</li>
+<li>Make a while loop that runs 10 times</li>
+<li>Make a while loop that runs until a user enters something</li>
+<li>Make a do while loop that runs 5 times</li>
+</ol>
 <h4 id="logic">Logic</h4>
 <p>Try converting the following instructions to Java code.</p>
 <ol>
