@@ -29,40 +29,51 @@
 <li>Increment the order number after sale.</li>
 </ol>
 <h4 id="logic">Logic</h4>
-<pre><code>1. Pass / Fail Tester
-    if student's grade is greater than or equal to 60
-        print "passed"
-    else
-        print "failed"
-
-2. Calculate Class Average From Input
-    Create and set total to zero
-    Create and set grade counter to one
-    Create the class average
-
-    While grade counter is less than or equal to ten
-        Input the next grade
-        Add the grade to the total
-
-    Set the class average to the total divided by ten
-    Print the class average.
-
-3. Better Class Averager With Quit
-    Initialize total to zero
-    Initialize counter to zero
-
-    Input the first grade
-
-    while the user has not as yet entered quit
-        add this grade into the running total
-        add one to the grade counter
-        input the next grade (or quit)
-    if the counter is not equal to zero
-        set the average to the total divided by the counter
-        print the average
-    else
-        print "no grades were entere"
+<p>Try converting the following instructions to Java code.</p>
+<ol>
+<li>
+<p>Pass / Fail Tester</p>
+<pre><code> if student's grade is greater than or equal to 60
+     print "passed"
+ else
+     print "failed"
 </code></pre>
+<ol start="2">
+<li>
+<p>Calculate Class Average From Input</p>
+<pre><code> Create and set total to zero
+ Create and set grade counter to one
+ Create the class average
+
+ While grade counter is less than or equal to ten
+     Input the next grade
+     Add the grade to the total
+
+ Set the class average to the total divided by ten
+ Print the class average.
+</code></pre>
+</li>
+<li>
+<p>Better Class Averager With Quit</p>
+<pre><code> Initialize total to zero
+ Initialize counter to zero
+
+ Input the first grade
+
+ while the user has not as yet entered quit
+     add this grade into the running total
+     add one to the grade counter
+     input the next grade (or quit)
+ if the counter is not equal to zero
+     set the average to the total divided by the counter
+     print the average
+ else
+     print "no grades were entered"
+</code></pre>
+</li>
+</ol>
+</li>
+</ol>
 <h3 id="writing-pseudocode">Writing Pseudocode</h3>
 <p>Write pseudocode for the steps to make change (quarters, dimes, nickels, and pennies). For example, turn $2.53 into coins.</p>
 <p>Try to convert this into an actual Change Machine program.</p>
