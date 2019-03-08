@@ -47,19 +47,19 @@
  else
      print "failed"
 </code></pre>
-<ol start="2">
+</li>
 <li>
 <p>Calculate Class Average From Input</p>
-<pre><code> Create and set total to zero
- Create and set grade counter to one
- Create the class average
+<pre><code>   Create and set total to zero
+   Create and set grade counter to one
+   Create the class average
 
- While grade counter is less than or equal to ten
-     Input the next grade
-     Add the grade to the total
+   While grade counter is less than or equal to ten
+       Input the next grade
+       Add the grade to the total
 
- Set the class average to the total divided by ten
- Print the class average.
+   Set the class average to the total divided by ten
+   Print the class average.
 </code></pre>
 </li>
 <li>
@@ -79,8 +79,6 @@
  else
      print "no grades were entered"
 </code></pre>
-</li>
-</ol>
 </li>
 </ol>
 <h3 id="writing-pseudocode">Writing Pseudocode</h3>
