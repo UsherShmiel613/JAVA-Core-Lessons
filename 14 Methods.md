@@ -21,7 +21,8 @@
         // Here we print sayHello twice, without having to repeat the entire code.
         sayHello();
         sayHello();
-
+	    
+	    // Notice that we have a second version of this method below the main method. 
         // Now we use the second version of this method, which takes a name String.
         // We can reuse the code many times, saving us lots of typing!
         // Also, this makes our main method much easier to read and understand.
@@ -31,7 +32,7 @@
     }
     
     // Methods can go any where in a class, and they can be before or after the Main Method.  
-    // Two methods can have the same name, as long as they take different parameters (variable types)  
+    // Two methods can have the same name, as long as they use different variable types (arguments / paramaters).  
     // (Having two methods with the same name is called "overloading"
       
     static void sayHello(String name) {  
