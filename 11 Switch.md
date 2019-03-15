@@ -3,7 +3,7 @@
 
 ---
 
-<h1 id="switch-statements">Switch Statements</h1>
+<h1 id="switch-statements">13 Switch Statements</h1>
 <p>There is one more way to control your program’s decision making, the <strong>switch statement</strong>. It is not as common as the others, but it is very useful when you have a lot of options, because it avoids needing lot of <strong>if else</strong> statements.</p>
 <p><strong>Switch statements</strong> are also faster if there are a lot of choices. They are usually used when the input is some fixed number or word (String). <strong>If else</strong> statements are usually used to check conditions that vary.</p>
 <p>Here is an example of a switch statement that prints the day of the week, corresponding with its number.</p>
