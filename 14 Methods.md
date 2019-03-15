@@ -3,7 +3,7 @@
 
 ---
 
-<h1 id="methods">Methods</h1>
+<h1 id="methods">14 Methods</h1>
 <p>Until now we have been working inside of the <strong>Main Method</strong>. Its time to break free! Let’s write our own methods.</p>
 <pre><code>public class Methods {
 
