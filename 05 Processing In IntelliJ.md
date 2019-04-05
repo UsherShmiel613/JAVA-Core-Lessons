@@ -42,7 +42,7 @@
 <p>Here is a simple example:</p>
 <pre><code>import processing.core.PApplet;  
   
-public class ProcessingPaintApp extends PApplet {  
+public class ProcessingApp extends PApplet {  
   
     public void settings() {  
        size(600, 600);  
@@ -57,7 +57,7 @@ public class ProcessingPaintApp extends PApplet {
   }  
   
     public static void main(String[] args) {  
-        PApplet.main("ProcessingPaintApp");  
+        PApplet.main("ProcessingApp");  
   }   
 }
 </code></pre>
