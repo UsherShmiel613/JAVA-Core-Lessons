@@ -41,7 +41,4 @@ Mike Boyd is a YouTube creator who learns new skills fast. He measures exactly h
 <a href="https://www.youtube.com/watch?0pv=Xqpf1FxU2q4">https://www.youtube.com/watch?0pv=Xqpf1FxU2q4</a><br>
 <em>The Ten Hour Rule</em><br>
 <a href="https://www.youtube.com/watch?v=Q1AXfOr6W4k">https://www.youtube.com/watch?v=Q1AXfOr6W4k</a></p>
-<blockquote>
-<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
-</blockquote>
 
