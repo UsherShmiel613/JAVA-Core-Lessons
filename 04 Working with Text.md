@@ -32,7 +32,9 @@
         System.out.println(welcomeUser);
         /* This does the same thing, but does it manually. 
         This makes it harder to change later. 
-        Using the variables allows the code to change, for example to use the same function for many users with different names. 
+        Using the variables allows the code to change, 
+        for example to use the same function 
+        for many users with different names. 
         We'll learn how to do that soon.
         */   
         System.out.println("Hello" + " " + "Adam");
@@ -47,7 +49,4 @@
 </code></pre>
 </li>
 </ul>
-<blockquote>
-<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
-</blockquote>
 
