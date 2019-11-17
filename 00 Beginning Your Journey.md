@@ -8,7 +8,7 @@
 <p>Before getting started, let’s frame things in a way that will make everything easier to understand, using a bit of imagination.</p>
 <h2 id="story-your-mission-should-you-choose-to-accept-it">Story: Your Mission, Should You Choose to Accept It</h2>
 <p><em>Congratulations! You have been selected as a member of an elite team. This team will be setting up remote colonies to explore and develop Mars.</em></p>
-<p><em>Your have been assigned to control a highly advanced and fully customizable robot. Your robot lives in a special pod, which is stocked with a shelves and shelves of premade components that you can add or remove from your robot, depending on the needs of each tasks. In addition, the pod has a workbench with all of the tools and raw materials you need to craft your own components and modify existing components to best suit your needs.</em></p>
+<p><em>Your have been assigned to control a highly advanced and fully customizable robot. Your robot lives in a special pod, which is stocked with shelves and shelves of premade components that you can add or remove from your robot, depending on the needs of each tasks. In addition, the pod has a workbench with all of the tools and raw materials you need to craft your own components and modify existing components to best suit your needs.</em></p>
 <p><em>You will control all of this remotely from your computer. In the next lesson we will help you set up all of the software you need to control your robot.</em></p>
 <p>Before we begin, its important to have an idea of what to expect when learning to Code in general, and when learning Java in particular.</p>
 <h2 id="what-to-expect">What to Expect</h2>
