@@ -4,8 +4,8 @@
 ---
 
 <h1 id="how-java-works--in-4-parts">How Java Works ~ In 4 Parts</h1>
-<p>Now that we have some basic experience with Java, its good to understand a little bit about what is going on under the hood. It just so happens that this comes to you complete with 4x4 drive—4 sections with 4 parts each.</p>
-<h3 id="one-write-one-run-anywhere">One: Write One Run Anywhere!</h3>
+<p>Now that we have some basic experience with Java, it's good to understand a little bit about what is going on under the hood. It just so happens that this comes to you complete with 4x4 drive—4 sections with 4 parts each.</p>
+<h3 id="one-write-once-run-anywhere">One: Write One Run Anywhere!</h3>
 <p>Java was built to make things easier for programmers (and save money for companies). One of the core goals of Java is encapsulated in its moto: <strong>Write once, run anywhere!</strong></p>
 <p>To make this possible, Java uses a <strong>four step</strong> process:</p>
 <ol>
