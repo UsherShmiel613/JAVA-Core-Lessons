@@ -12,9 +12,9 @@
 <li>The software developer (that’s you) writes human-friendly code in the Java language. Once you are finished with your code, you send it to the Compiler.</li>
 <li>The <strong>Java Compiler</strong> (javac) checks your code for errors. If there are errors, the Compiler sends you error messages, so you can fix your code. Otherwise, it converts the code into bytecode.</li>
 <li>The <strong>bytecode</strong>, which is machine-friendly. A Java Virtual Machine will know how to run this code on any machine.</li>
-<li>The <strong>Java Virtual Machine</strong> (JVM) is installed on each devise. It knows how to run bytecode in a way that is compatible with <em>that</em> devise.</li>
+<li>The <strong>Java Virtual Machine</strong> (JVM) is installed on each device. It knows how to run bytecode in a way that is compatible with <em>that</em> device.</li>
 </ol>
-<p>This four step process ensures that you can write easy to read code, which will be converted into machine code. Most languages will do this. Java goes one step further and ensures that <em>the same code</em> can run on <em>any</em> machine with a JVM installed. On the other hand, using most other languages, you would have to write separate code for, say, a Windows Machine and a Mac.</p>
+<p>This four step process ensures that you can easily read and write code, which will be converted into machine code. Most languages will do this. Java goes one step further and ensures that <em>the same code</em> can run on <em>any</em> machine with a JVM installed. On the other hand, using most other languages, you would have to write separate code for, say, a Windows Machine and a Mac.</p>
 <h3 id="two-java-the-old-fashioned-way">Two: Java The Old Fashioned Way</h3>
 <p>Technically, you can write and run Java code without any IDE (Integrated Development Environment, like IntelliJ). Here are the <strong>four steps</strong>.</p>
 <ol>
